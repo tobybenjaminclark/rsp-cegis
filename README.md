@@ -1,7 +1,7 @@
 
 ## RSP-CEGIS
 
-Counterexample-Guided Inductive Synthesis (CEGIS) for discovering sound pruning rules for the runway sequencing problem, using:
+This repository contains a Python implementation of Counterexample-Guided Inductive Synthesis (CEGIS) for discovering sound pruning rules for the runway sequencing problem. This was developed as part of my doctoral research at the University of Nottingham. Specifically, it contains:
 - a small AST language for candidate rules (`pr_ast.py`)
 - a genetic program search over that AST (`genetic.py`)
 - an SMT-backed semantics / verifier for a specific scheduling “form” (`form.py`, Z3 Theorem Prover)
